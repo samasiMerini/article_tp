@@ -17,6 +17,9 @@ const Menu = (props) =>(
         <li>
             <Link to="/no-offres">Nos Offres</Link>
         </li>
+        <li>
+            <Link to="/add-article">Add New Article</Link>
+        </li>
     </ul>
 )
 export default Menu;

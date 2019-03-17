@@ -11,6 +11,7 @@ import Apropos from './pages/Apropos';
 import Articles from './pages/Articles';
 import Article from './pages/Article';
 import Offres from './pages/Offres';
+import AddArticle from './pages/AddArticle';
 
 
 
@@ -22,6 +23,7 @@ export default () =>(
             <Route path='/a-propos-de-nous' exact component ={() => <Layout><Apropos /></Layout>}/>
             <Route path='/articles' exact component ={() => <Layout><Articles /></Layout>}/>
             <Route path='/no-offres' exact component ={() => <Layout><Offres /></Layout>}/>
+            <Route path='/add-article' exact component ={() => <Layout><AddArticle /></Layout>}/>
             <Route path='/Article/:id' exact component ={(props) => <Layout><Article articleId={props.match.params.id} /></Layout>}/>
         
         <Route render={() =>(

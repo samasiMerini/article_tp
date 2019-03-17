@@ -7,7 +7,6 @@ import Styled from 'styled-components';
 
 const Container = Styled.div `
 width: 80%;
-background: pink;
 margin : 0 auto;
 padding: 0.5em;
 `
